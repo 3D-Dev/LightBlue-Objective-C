@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditValueController">
+            <connections>
+                <outlet property="valueInputTf" destination="6m1-ak-Opp" id="Q9y-nO-RZw"/>
+                <outlet property="view" destination="6x3-X9-W9C" id="K2k-qW-J1P"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6x3-X9-W9C">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niR-tv-7wO">
+                    <rect key="frame" x="173" y="85" width="30" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6m1-ak-Opp">
+                    <rect key="frame" x="30" y="113" width="315" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="niR-tv-7wO" firstAttribute="centerX" secondItem="6m1-ak-Opp" secondAttribute="centerX" id="Cfn-Kx-zAH"/>
+                <constraint firstItem="niR-tv-7wO" firstAttribute="top" secondItem="6x3-X9-W9C" secondAttribute="top" constant="85" id="EqW-8u-Rvn"/>
+                <constraint firstItem="niR-tv-7wO" firstAttribute="centerX" secondItem="6x3-X9-W9C" secondAttribute="centerX" id="cC9-mH-8tZ"/>
+                <constraint firstItem="6m1-ak-Opp" firstAttribute="leading" secondItem="6x3-X9-W9C" secondAttribute="leading" constant="30" id="flm-4K-9nN"/>
+                <constraint firstItem="6m1-ak-Opp" firstAttribute="top" secondItem="niR-tv-7wO" secondAttribute="bottom" constant="7" id="mNf-qM-KM5"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+</document>
