@@ -51,10 +51,13 @@ The LightBlue has two mode, Central and Peripheral.
 ## Contact
 
 Swift-LightBlue
-
-[Sina Weibo](http://weibo.com/5690716723/info) or [My Blog](http://www.pluto-y.com)
+[Pluto Y - Blog](http://www.pluto-y.com) or
+[Sina Weibo](http://weibo.com/5690716723/info) 
 
 
 LightBlue-Objective-C
 
-[GITHUB](https://github.com/insanelydeepak)
+[InsanelyDeepak](https://github.com/insanelydeepak)
+
+## License
+LightBlue iOS This is under the MIT license. See the LICENSE file for more info.
