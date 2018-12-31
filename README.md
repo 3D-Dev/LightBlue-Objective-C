@@ -51,8 +51,13 @@ The LightBlue has two mode, Central and Peripheral.
 ## Contact
 
 Swift-LightBlue
-[Pluto Y - Blog](http://www.pluto-y.com) or
+
+[Pluto Y - Blog](http://www.pluto-y.com) 
+
+or
+
 [Sina Weibo](http://weibo.com/5690716723/info) 
+
 
 
 LightBlue-Objective-C
