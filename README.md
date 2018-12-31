@@ -10,7 +10,7 @@ LightBlue iOS (Obective-C)
 ___
 
 This project is inspired by and objective-c port of [Swift-LightBlue](https://github.com/Pluto-Y/Swift-LightBlue).
-I created this project for my projects which are purely written in Obj-C and requires debugging feature like this and hope it will help someone who needs it.
+I created this project for my projects which are purely written in Obj-C and requires debugging feature like it and hope it will help someone who needs it.
 It provides all features and options and project will be synchronizes with `Swift-LightBlue`.
 
 ___
